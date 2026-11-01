@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Local database (contains your personal financial data)
+data/
+*.db
+*.sqlite3
+
+# Secrets - never upload these
+.streamlit/secrets.toml
+.env
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
